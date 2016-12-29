@@ -3,4 +3,10 @@
 
 
 
+
+
+
+
+
+
 ![image](https://github.com/zsj1992/IJKPlayerDemo/blob/master/ZSIJKPlayer_Demo/ZSIJKPlayer_Demo/ZSPlayer.gif)
