@@ -42,11 +42,11 @@
 		287FD0361E13F79400AA5DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD0351E13F79400AA5DD5 /* AppDelegate.m */; };
 		287FD0391E13F79400AA5DD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD0381E13F79400AA5DD5 /* ViewController.m */; };
 		287FD03C1E13F79400AA5DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287FD03A1E13F79400AA5DD5 /* Main.storyboard */; };
-		287FD03E1E13F79400AA5DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287FD03D1E13F79400AA5DD5 /* Assets.xcassets */; };
 		287FD0411E13F79400AA5DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287FD03F1E13F79400AA5DD5 /* LaunchScreen.storyboard */; };
 		287FD04C1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD04B1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m */; };
 		287FD0571E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */; };
 		288CD56D1E14A92800E53993 /* ZSPlayer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288CD56C1E14A92800E53993 /* ZSPlayer.gif */; };
+		28A222641E4DC4BF0078DF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A222631E4DC4BF0078DF83 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,7 +124,6 @@
 		287FD0371E13F79400AA5DD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		287FD0381E13F79400AA5DD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		287FD03B1E13F79400AA5DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		287FD03D1E13F79400AA5DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		287FD0401E13F79400AA5DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287FD0421E13F79400AA5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287FD0471E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSIJKPlayer_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +133,7 @@
 		287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSIJKPlayer_DemoUITests.m; sourceTree = "<group>"; };
 		287FD0581E13F79500AA5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288CD56C1E14A92800E53993 /* ZSPlayer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZSPlayer.gif; sourceTree = "<group>"; };
+		28A222631E4DC4BF0078DF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,7 +274,7 @@
 				287FD03F1E13F79400AA5DD5 /* LaunchScreen.storyboard */,
 				287FD0421E13F79400AA5DD5 /* Info.plist */,
 				288CD56C1E14A92800E53993 /* ZSPlayer.gif */,
-				287FD03D1E13F79400AA5DD5 /* Assets.xcassets */,
+				28A222631E4DC4BF0078DF83 /* Assets.xcassets */,
 				287FD0311E13F79400AA5DD5 /* Supporting Files */,
 			);
 			path = ZSIJKPlayer_Demo;
@@ -423,10 +423,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				287FD0411E13F79400AA5DD5 /* LaunchScreen.storyboard in Resources */,
-				287FD03E1E13F79400AA5DD5 /* Assets.xcassets in Resources */,
 				288CD56D1E14A92800E53993 /* ZSPlayer.gif in Resources */,
 				28405F331E1405F1002B2D7D /* PlayViewController.xib in Resources */,
 				28405EBC1E13FFA8002B2D7D /* LICENSE in Resources */,
+				28A222641E4DC4BF0078DF83 /* Assets.xcassets in Resources */,
 				287FD03C1E13F79400AA5DD5 /* Main.storyboard in Resources */,
 				28405F2E1E14054A002B2D7D /* Resource.xcassets in Resources */,
 			);
