@@ -28,8 +28,8 @@
 @interface ZSPlayerView : UIView
 @property (nonatomic,copy)NSString * url;
 @property (nonatomic,strong)IJKFFMoviePlayerController * player;
-@property (nonatomic,weak)id<fullScreenDelegate> fullScreenDelegate;
-@property (nonatomic,weak)id<backDelegate> backDelegate;
+@property (nonatomic,strong)id<fullScreenDelegate> fullScreenDelegate;
+@property (nonatomic,strong)id<backDelegate> backDelegate;
 
 @property (nonatomic,strong)UIView * cover;
 

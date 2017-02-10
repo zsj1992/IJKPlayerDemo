@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28405EBB1E13FFA8002B2D7D /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28405E971E13FFA8002B2D7D /* IJKMediaFramework.framework */; };
 		28405EBC1E13FFA8002B2D7D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 28405E991E13FFA8002B2D7D /* LICENSE */; };
 		28405EBD1E13FFA8002B2D7D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 28405E9C1E13FFA8002B2D7D /* MASCompositeConstraint.m */; };
 		28405EBE1E13FFA8002B2D7D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 28405E9F1E13FFA8002B2D7D /* MASConstraint.m */; };
@@ -48,6 +47,7 @@
 		287FD04C1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD04B1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m */; };
 		287FD0571E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */; };
 		288CD56D1E14A92800E53993 /* ZSPlayer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288CD56C1E14A92800E53993 /* ZSPlayer.gif */; };
+		28A2219B1E4D89D00078DF83 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A2219A1E4D89D00078DF83 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28405E971E13FFA8002B2D7D /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		28405E991E13FFA8002B2D7D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28405E9B1E13FFA8002B2D7D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		28405E9C1E13FFA8002B2D7D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -136,6 +135,7 @@
 		287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSIJKPlayer_DemoUITests.m; sourceTree = "<group>"; };
 		287FD0581E13F79500AA5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288CD56C1E14A92800E53993 /* ZSPlayer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZSPlayer.gif; sourceTree = "<group>"; };
+		28A2219A1E4D89D00078DF83 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 				28405ED01E140077002B2D7D /* QuartzCore.framework in Frameworks */,
 				28405ECE1E14006A002B2D7D /* UIKit.framework in Frameworks */,
 				28405ECC1E140062002B2D7D /* VideoToolbox.framework in Frameworks */,
-				28405EBB1E13FFA8002B2D7D /* IJKMediaFramework.framework in Frameworks */,
+				28A2219B1E4D89D00078DF83 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,15 +180,14 @@
 		28405E961E13FFA8002B2D7D /* ZSPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				28405F2C1E140520002B2D7D /* Resource */,
-				28405E971E13FFA8002B2D7D /* IJKMediaFramework.framework */,
-				28405E981E13FFA8002B2D7D /* Masonry */,
+				28405EB91E13FFA8002B2D7D /* ZSPlayerView.h */,
+				28405EBA1E13FFA8002B2D7D /* ZSPlayerView.m */,
 				28405EB51E13FFA8002B2D7D /* ZSButton.h */,
 				28405EB61E13FFA8002B2D7D /* ZSButton.m */,
 				28405EB71E13FFA8002B2D7D /* ZSLoading.h */,
 				28405EB81E13FFA8002B2D7D /* ZSLoading.m */,
-				28405EB91E13FFA8002B2D7D /* ZSPlayerView.h */,
-				28405EBA1E13FFA8002B2D7D /* ZSPlayerView.m */,
+				28405F2C1E140520002B2D7D /* Resource */,
+				28405E981E13FFA8002B2D7D /* Masonry */,
 			);
 			path = ZSPlayer;
 			sourceTree = "<group>";
@@ -246,6 +245,7 @@
 		287FD0251E13F79400AA5DD5 = {
 			isa = PBXGroup;
 			children = (
+				28A2219A1E4D89D00078DF83 /* IJKMediaFramework.framework */,
 				287FD0301E13F79400AA5DD5 /* ZSIJKPlayer_Demo */,
 				287FD04A1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests */,
 				287FD0551E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests */,
@@ -618,6 +618,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZSIJKPlayer_Demo/ZSPlayer",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ZSIJKPlayer_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -633,6 +634,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZSIJKPlayer_Demo/ZSPlayer",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ZSIJKPlayer_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

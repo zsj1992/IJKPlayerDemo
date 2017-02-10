@@ -22,11 +22,15 @@
 
 - (IBAction)playVideo:(id)sender {
     
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+
     NSLog(@"播放点播视频");
    
     NSString * url = @"http://baobab.wdjcdn.com/1456231710844S(24).mp4";
 
     PlayViewController * playVc = [[PlayViewController alloc]init];
+    
+    
     
     playVc.url = url;
     
