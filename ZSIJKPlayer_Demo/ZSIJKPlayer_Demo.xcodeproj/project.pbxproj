@@ -47,7 +47,6 @@
 		287FD04C1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD04B1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests.m */; };
 		287FD0571E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */; };
 		288CD56D1E14A92800E53993 /* ZSPlayer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 288CD56C1E14A92800E53993 /* ZSPlayer.gif */; };
-		28A222591E4DBAE50078DF83 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A222581E4DBAE50078DF83 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,7 +134,6 @@
 		287FD0561E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSIJKPlayer_DemoUITests.m; sourceTree = "<group>"; };
 		287FD0581E13F79500AA5DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288CD56C1E14A92800E53993 /* ZSPlayer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZSPlayer.gif; sourceTree = "<group>"; };
-		28A222581E4DBAE50078DF83 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +154,6 @@
 				28405ED01E140077002B2D7D /* QuartzCore.framework in Frameworks */,
 				28405ECE1E14006A002B2D7D /* UIKit.framework in Frameworks */,
 				28405ECC1E140062002B2D7D /* VideoToolbox.framework in Frameworks */,
-				28A222591E4DBAE50078DF83 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +242,6 @@
 		287FD0251E13F79400AA5DD5 = {
 			isa = PBXGroup;
 			children = (
-				28A222581E4DBAE50078DF83 /* IJKMediaFramework.framework */,
 				287FD0301E13F79400AA5DD5 /* ZSIJKPlayer_Demo */,
 				287FD04A1E13F79500AA5DD5 /* ZSIJKPlayer_DemoTests */,
 				287FD0551E13F79500AA5DD5 /* ZSIJKPlayer_DemoUITests */,
