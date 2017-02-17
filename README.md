@@ -5,7 +5,7 @@
 
 代码有很多不完善的地方,希望得到大家的指正。
 
-由于ijkplayerframework.framework超过100M,不方便上传,放在了 [这里](https://pan.baidu.com/s/1mhSwfSs)  ,可以点击下载后拖入项目文件夹即可正常运行
+由于ijkplayerframework.framework比较大,不方便上传,放在了 [这里](https://pan.baidu.com/s/1mhSwfSs)  ,可以点击下载后拖入项目文件夹即可正常运行
 
 
 
