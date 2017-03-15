@@ -20,8 +20,6 @@ static CGFloat angle = 0;
 
 static UIBezierPath * path;
 
-
-
 -(void)setFrame:(CGRect)frame{
     
     if (!_firstSetFrame) {
@@ -50,7 +48,6 @@ static UIBezierPath * path;
 
 
 -(void)setupAniamtion{
-    
     
     //动画的对象---想哪个值动画改变
     CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
@@ -112,13 +109,17 @@ static UIBezierPath * path;
      angle+M_PI*2 clockwise:YES];
     
     layer.path = path.CGPath;
-    
-    [self setupAniamtion];
-    
-    
+
+    if (!self.animationStop) {
+        [self setupAniamtion];
+    }
     
 }
 
+
+-(void)setAnimationStop:(BOOL)animationStop{
+    _animationStop = animationStop;
+}
 
 
 @end

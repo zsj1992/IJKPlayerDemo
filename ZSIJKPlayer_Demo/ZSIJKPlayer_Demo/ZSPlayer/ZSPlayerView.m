@@ -17,13 +17,11 @@
     UIImageView * _voiceImgView;
     UIImageView * _brightnessImgView;
 }
-//工具蒙版
 
+//工具蒙版
 @property (nonatomic,strong)ZSButton * btnOperate;
 @property (nonatomic,strong)ZSButton * btnLock;
 @property (nonatomic,strong)ZSLoading * loading;
-
-
 
 //标题栏
 @property (nonatomic,strong)ZSButton * btnBack;
@@ -36,7 +34,6 @@
 @property (nonatomic,strong)UILabel * lblTotalTime;
 @property (nonatomic,strong)UISlider * slider;//滑块
 @property (nonatomic,strong)UIProgressView * progressView;//进度条
-
 
 //计时器
 @property (nonatomic,strong)NSTimer * timer;
@@ -282,7 +279,8 @@
 -(void)changeState{
     //移除加载条
     [_loading removeFromSuperview];
-    _loading = nil;
+//    _loading = nil;
+    _loading.animationStop = YES;
     
     //改变隐藏的状态
     _lblCurrentTime.hidden = !_lblCurrentTime.hidden;
@@ -297,6 +295,10 @@
 -(void)back:(UIButton *)sender{
     
     NSLog(@"点击了返回按钮");
+    
+    [_loading removeFromSuperview];
+//    _loading = nil;
+    _loading.animationStop = YES;
 
     if (self.backDelegate&&[self.backDelegate respondsToSelector:@selector(btnFullScreenDidClick:)]) {
         [self.backDelegate btnBackClick:sender];
@@ -597,8 +599,6 @@ NSTimer * timer;
     [_placeHolderImgView removeFromSuperview];
     
     [self changeState];
-
-    
 }
 
 - (void)moviePlayBackStateDidChange:(NSNotification*)notification {
