@@ -1,3 +1,10 @@
+
+看到的道友可以下载我的应用帮忙给个五星好评嘛,🥺🥺🥺
+图片转文字 https://apps.apple.com/cn/app/id1452570679
+节拍器 https://www.qimai.cn/app/rank/appid/1374770476/country/cn
+在线求赞,非常感谢各位大佬
+
+
 # IJKPlayerDemo
 基于IJKPlayer框架的iOS播放器,包含全屏、播放、暂停、亮度调节、音量调节、进度条（边播边缓存）等UI控件及相应功能。
 
