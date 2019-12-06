@@ -1,5 +1,5 @@
 
-看到的道友可以下载我的应用帮忙给个五星好评嘛,🥺🥺🥺
+看到的道友可以下载我的应用帮忙给个五星好评嘛,🥺🥺🥺</br>
 图片转文字 https://apps.apple.com/cn/app/id1452570679
 节拍器 https://www.qimai.cn/app/rank/appid/1374770476/country/cn
 在线求赞,非常感谢各位大佬
